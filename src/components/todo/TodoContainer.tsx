@@ -7,7 +7,7 @@ import { useAppSelector } from "@/redux/hook";
 const TodoContainer = () => {
   // const [todos, setTodos] = useState({ data: [] });
   const { todos } = useAppSelector((state) => state.todos);
-  console.log(todos);
+  // console.log(todos);
   return (
     <div>
       <div className="flex justify-between mb-5 ">
